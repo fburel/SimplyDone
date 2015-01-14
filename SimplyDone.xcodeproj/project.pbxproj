@@ -14,6 +14,11 @@
 		0C66BD491A6540BA00A2F989 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C66BD481A6540BA00A2F989 /* Images.xcassets */; };
 		0C66BD4C1A6540BA00A2F989 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C66BD4A1A6540BA00A2F989 /* LaunchScreen.xib */; };
 		0C66BD581A6540BB00A2F989 /* SimplyDoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C66BD571A6540BB00A2F989 /* SimplyDoneTests.m */; };
+		0CCEE59F1A669A7A00A83E8F /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE59E1A669A7A00A83E8F /* CoreDataManager.m */; };
+		0CCEE5A41A66A2C700A83E8F /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE5A21A66A2C700A83E8F /* Model.xcdatamodeld */; };
+		0CCEE5AD1A66A4AF00A83E8F /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCEE5AC1A66A4AF00A83E8F /* Todo.m */; };
+		18C2AA367040884554464155 /* TodoRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2AE788071548262AA4D17 /* TodoRepository.m */; };
+		8B3EC2075F4893D09891376F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A714B07943717CAEF8FCBB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0734591F546FB5BA49737921 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		0C66BD381A6540BA00A2F989 /* SimplyDone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyDone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C66BD3C1A6540BA00A2F989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C66BD3D1A6540BA00A2F989 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,16 @@
 		0C66BD511A6540BB00A2F989 /* SimplyDoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyDoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C66BD561A6540BB00A2F989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C66BD571A6540BB00A2F989 /* SimplyDoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimplyDoneTests.m; sourceTree = "<group>"; };
+		0CCEE59D1A669A7A00A83E8F /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		0CCEE59E1A669A7A00A83E8F /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		0CCEE5A01A669B4800A83E8F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0CCEE5A31A66A2C700A83E8F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0CCEE5AB1A66A4AF00A83E8F /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		0CCEE5AC1A66A4AF00A83E8F /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		18C2A0F845D3E326FB3F5BC1 /* TodoRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoRepository.h; sourceTree = "<group>"; };
+		18C2AE788071548262AA4D17 /* TodoRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoRepository.m; sourceTree = "<group>"; };
+		22A714B07943717CAEF8FCBB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F886E12B92A06C74DC09837 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B3EC2075F4893D09891376F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +83,8 @@
 				0C66BD3A1A6540BA00A2F989 /* SimplyDone */,
 				0C66BD541A6540BB00A2F989 /* SimplyDoneTests */,
 				0C66BD391A6540BA00A2F989 /* Products */,
+				759A482097A2F94C6BA3C100 /* Pods */,
+				EFA96DB8D4A375A2B603B968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +104,9 @@
 				0C66BD401A6540BA00A2F989 /* AppDelegate.m */,
 				0C66BD421A6540BA00A2F989 /* ViewController.h */,
 				0C66BD431A6540BA00A2F989 /* ViewController.m */,
+				0CCEE5AE1A66A4BC00A83E8F /* Entity */,
+				0CCEE5A71A66A42000A83E8F /* Repository */,
+				0CCEE5A51A66A3E300A83E8F /* CoreData */,
 				0C66BD451A6540BA00A2F989 /* Main.storyboard */,
 				0C66BD481A6540BA00A2F989 /* Images.xcassets */,
 				0C66BD4A1A6540BA00A2F989 /* LaunchScreen.xib */,
@@ -119,6 +141,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0CCEE5A51A66A3E300A83E8F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE59D1A669A7A00A83E8F /* CoreDataManager.h */,
+				0CCEE59E1A669A7A00A83E8F /* CoreDataManager.m */,
+				0CCEE5A21A66A2C700A83E8F /* Model.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		0CCEE5A71A66A42000A83E8F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				18C2AE788071548262AA4D17 /* TodoRepository.m */,
+				18C2A0F845D3E326FB3F5BC1 /* TodoRepository.h */,
+			);
+			name = Repository;
+			sourceTree = "<group>";
+		};
+		0CCEE5AE1A66A4BC00A83E8F /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE5AB1A66A4AF00A83E8F /* Todo.h */,
+				0CCEE5AC1A66A4AF00A83E8F /* Todo.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		759A482097A2F94C6BA3C100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0734591F546FB5BA49737921 /* Pods.debug.xcconfig */,
+				8F886E12B92A06C74DC09837 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFA96DB8D4A375A2B603B968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CCEE5A01A669B4800A83E8F /* CoreData.framework */,
+				22A714B07943717CAEF8FCBB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C66BD5B1A6540BB00A2F989 /* Build configuration list for PBXNativeTarget "SimplyDone" */;
 			buildPhases = (
+				C2AA9837B33E1AE5828A3873 /* Check Pods Manifest.lock */,
 				0C66BD341A6540BA00A2F989 /* Sources */,
 				0C66BD351A6540BA00A2F989 /* Frameworks */,
 				0C66BD361A6540BA00A2F989 /* Resources */,
+				5B291A19639A5F2A3959217C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +284,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B291A19639A5F2A3959217C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2AA9837B33E1AE5828A3873 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C66BD341A6540BA00A2F989 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CCEE59F1A669A7A00A83E8F /* CoreDataManager.m in Sources */,
 				0C66BD441A6540BA00A2F989 /* ViewController.m in Sources */,
 				0C66BD411A6540BA00A2F989 /* AppDelegate.m in Sources */,
+				0CCEE5A41A66A2C700A83E8F /* Model.xcdatamodeld in Sources */,
 				0C66BD3E1A6540BA00A2F989 /* main.m in Sources */,
+				18C2AA367040884554464155 /* TodoRepository.m in Sources */,
+				0CCEE5AD1A66A4AF00A83E8F /* Todo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +448,7 @@
 		};
 		0C66BD5C1A6540BB00A2F989 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0734591F546FB5BA49737921 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimplyDone/Info.plist;
@@ -351,6 +459,7 @@
 		};
 		0C66BD5D1A6540BB00A2F989 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F886E12B92A06C74DC09837 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimplyDone/Info.plist;
@@ -412,6 +521,7 @@
 				0C66BD5D1A6540BB00A2F989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C66BD5E1A6540BB00A2F989 /* Build configuration list for PBXNativeTarget "SimplyDoneTests" */ = {
 			isa = XCConfigurationList;
@@ -420,8 +530,22 @@
 				0C66BD601A6540BB00A2F989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0CCEE5A21A66A2C700A83E8F /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0CCEE5A31A66A2C700A83E8F /* Model.xcdatamodel */,
+			);
+			currentVersion = 0CCEE5A31A66A2C700A83E8F /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0C66BD301A6540BA00A2F989 /* Project object */;
 }
